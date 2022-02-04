@@ -74,7 +74,8 @@ void drawSinFunction()
 }
 
 void keyPressed() {
-  if (key == CODED) {
+  if (key == CODED) 
+  {
     if (keyCode == UP)
     {
       amplitude = amplitude + 10;
@@ -91,7 +92,6 @@ void keyPressed() {
     {
       frequency = frequency -0.1;
     } 
-  } else 
-  {
+ 
   }
 }
